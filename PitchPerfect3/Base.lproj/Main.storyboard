@@ -72,7 +72,7 @@
                         <viewControllerLayoutGuide type="top" id="S27-KL-Qmv"/>
                         <viewControllerLayoutGuide type="bottom" id="bay-cr-Crh"/>
                     </layoutGuides>
-                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Gov-Y5-IDe">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Gov-Y5-IDe" customClass="ADBannerView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
