@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -75,12 +76,27 @@
                     <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Gov-Y5-IDe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="c7q-rw-u8k">
+                                <rect key="frame" x="16" y="64" width="343" height="603"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Xgx-nD-ZIY">
+                                <rect key="frame" x="87" y="278" width="200" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bay-cr-Crh" firstAttribute="top" secondItem="c7q-rw-u8k" secondAttribute="bottom" id="SFo-Y0-ajC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="c7q-rw-u8k" secondAttribute="trailing" id="hNI-Ok-sxs"/>
+                            <constraint firstItem="c7q-rw-u8k" firstAttribute="top" secondItem="S27-KL-Qmv" secondAttribute="bottom" id="hp8-Oe-veP"/>
+                            <constraint firstItem="c7q-rw-u8k" firstAttribute="leading" secondItem="Gov-Y5-IDe" secondAttribute="leadingMargin" id="yFC-JV-qaX"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8r9-O4-gZw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1964" y="123"/>
+            <point key="canvasLocation" x="1964" y="122.78860569715144"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wMI-ti-i6K">
