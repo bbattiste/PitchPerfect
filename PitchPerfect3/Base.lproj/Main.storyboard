@@ -43,7 +43,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.40013390780000002" green="0.80975067619999996" blue="0.9146111012" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ZdD-xS-Q0M" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2HX-0N-Jlk"/>
                             <constraint firstItem="cmI-oq-pSp" firstAttribute="centerX" secondItem="ZdD-xS-Q0M" secondAttribute="centerX" id="FHZ-dn-74j"/>
@@ -152,7 +152,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40013390780000002" green="0.80975067619999996" blue="0.9146111012" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="leadingMargin" secondItem="l3P-nw-YBu" secondAttribute="leading" id="gxB-cR-Q0m"/>
                             <constraint firstAttribute="trailingMargin" secondItem="l3P-nw-YBu" secondAttribute="trailing" id="qIM-6P-KqQ"/>
