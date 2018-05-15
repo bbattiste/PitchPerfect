@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Record Something!!!-->
+        <!--Pitch Perfect-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="RecordSoundsViewController" customModule="PitchPerfect3" customModuleProvider="target" sceneMemberID="viewController">
@@ -60,7 +60,7 @@
                             <constraint firstItem="TWy-fu-IMD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="muY-al-2ee"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Record Something!!!" id="Yno-ah-fqn">
+                    <navigationItem key="navigationItem" title="Pitch Perfect" id="Yno-ah-fqn">
                         <barButtonItem key="backBarButtonItem" title="Back" id="MDu-6s-azH"/>
                     </navigationItem>
                     <connections>
