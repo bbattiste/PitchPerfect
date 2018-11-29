@@ -4,6 +4,10 @@
 
 You will make an iPhone app that will allow users to record their voice and will then modulate the recorded audio to sound like a Chipmunk or Darth Vader. This app will also let the user speed up or slow down the rate of playback, and experience fun echo and reverb effects.
 
+## Screens
+
+![ppscreens](https://user-images.githubusercontent.com/20981744/49255022-15e39a00-f3e8-11e8-95d1-77e0a8d46f80.png)
+
 ## Installation
 - Clone the repository
 ```
